@@ -4,12 +4,12 @@
 /* Definindo as cores principais como variáveis CSS */
 :root {
     --white: #fff;
-    --dark1: #34344e; /* Cor de fundo principal */
-    --dark2: #3a415a; /* Cor de seções */
+    --dark1: #000000; /* Cor de fundo principal */
+    --dark2: #5f3131; /* Cor de seções */
     --dark3: #ffffff; /* Cor clara (pode alterar para contraste) */
     --dark4: #fff; /* Alternativa de cor clara */
-    --dark5: #ea7089; /* Cor de destaque */
-    --cyan1: #ea7089; /* Outra cor de destaque */
+    --dark5: #d3a716; /* Cor de destaque */
+    --cyan1: #77595f; /* Outra cor de destaque */
 }
 
 /* Resetando margens e preenchimentos padrão */
@@ -51,7 +51,7 @@ header {
     gap: 1rem;
     flex-wrap: wrap;
     padding: 0.8rem;
-    background-color: #2f2f46;
+    background-color: #cbcbd1;
     min-height: 50px;
 }
 

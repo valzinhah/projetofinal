@@ -1,5 +1,5 @@
 function getProjects() {
-  const urlGitHub = "https://github.com/valzinhah."; // Inserir o nome de usuário do seu github
+  const urlGitHub = "https://api.github.com/users/valzinhah/repos"; // Inserir o nome de usuário do seu github
   const loadingElement = document.getElementById("loading");
   const listElement = document.getElementById("my-projects-list");
 
@@ -36,7 +36,7 @@ function showProjects(data) {
     div.classList.add("project-item"); // Classe para estilização
 
     const a = document.createElement("a");
-    a.href = repo["html_url"]; // Link para o repositório no GitHub
+    a.href = repo["hhttps://github.com/valzinhah?tab=repositories"]; // Link para o repositório no GitHub
     a.target = "_blank";
     a.title = repo["description"] || "Repositório no GitHub";
     a.textContent = repo["name"];
